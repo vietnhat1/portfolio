@@ -1,0 +1,118 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-custom {
+  background: rgb(0, 0, 0,0.8);
+  padding: 1rem 2rem;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-custom .nav-link {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #0fe36e;
+}
+
+/* Phần mở đầu + Video */
+.div-header {
+position: relative;
+height: 100vh;
+overflow: hidden;
+}
+
+#bg-video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center center; /* fix lệch! */
+z-index: -1;
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-text h1 span {
+  color: #ffaf02;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.hero-text .btn {
+  margin-top: 2rem;
+  border: 2px solid #f1c40f;
+  color: #f1c40f;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+}
+
+.hero-text .btn:hover {
+  background-color: #f1c40f;
+  color: black;
+}
+
+
+.bg-dark {
+background-color: #222;
+color: #fff;
+}
+
+.project-links a {
+text-decoration: none;
+font-weight: 500;
+border-bottom: 2px solid white;
+padding-bottom: 2px;
+transition: color 0.3s, border-color 0.3s;
+}
+
+.project-links a:hover {
+color: #0fe36e;
+border-color: #0fe36e;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    color:mediumblue;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
